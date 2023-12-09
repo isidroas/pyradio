@@ -14,6 +14,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+    'rich',
+    'requests',
+    'dnspython',
+    'psutil',
+    'netifaces',
+    'python-dateutil',
+]
 
 [project.optional-dependencies]
 cli = [
